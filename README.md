@@ -20,3 +20,6 @@ Setup:
 10. npm install request request-promise --save
 11. weather.request.js setup
 12. on-screen output
+---
+Live Demo:
+https://hulchenko.github.io/weather-app/
