@@ -16,3 +16,7 @@ Setup:
 6. add HTML/CSS
 7. configure index.js(every time we add new module or process)
 8. npm i body-parser (to enable requests parsing and finalize form-request processing)
+9. openweathermap setup API key
+10. npm install request request-promise --save
+11. weather.request.js setup
+12. on-screen output
