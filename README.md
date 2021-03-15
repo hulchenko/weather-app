@@ -21,5 +21,7 @@ Setup:
 11. weather.request.js setup
 12. on-screen output
 ---
-Live Demo:
-https://hulchenko.github.io/weather-app/
+To test:
+1. Clone/Download
+2. Terminal: npm run start
+3. Browser: localhost:3000
