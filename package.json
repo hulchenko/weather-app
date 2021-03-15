@@ -1,0 +1,28 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "NodeJS based weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hulchenko/weather-app.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "javascript"
+  ],
+  "author": "Vadym Hulchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hulchenko/weather-app/issues"
+  },
+  "homepage": "https://github.com/hulchenko/weather-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
