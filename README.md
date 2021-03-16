@@ -25,3 +25,6 @@ Setup:
     2. scripts fix
     3. update index.js port
     4. npm install -g heroku
+    5. heroku login
+    6. heroku create
+    7. git push heroku main
