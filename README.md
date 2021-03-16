@@ -20,3 +20,8 @@ Setup:
 10. npm install request request-promise --save
 11. weather.request.js setup
 12. on-screen output
+13. heroku deployment:
+    1. package.json add engines
+    2. scripts fix
+    3. update index.js port
+    4. npm install -g heroku

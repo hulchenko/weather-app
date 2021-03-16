@@ -21,6 +21,10 @@ app.post('/', async (req, res) => {
   res.render('index', { weather, error });
 });
 
-app.listen(3000, () => {
-  console.log('Server has started on port 3000...');
-});
+// app.listen(3000, () => {
+//   console.log('Server has started on port 3000...');
+// });
+
+app.listen(process.env.PORT || port, () =>
+  console.log(`Server has started on port ${port}...`)
+);
