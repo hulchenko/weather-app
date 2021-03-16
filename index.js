@@ -2,6 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const weatherRequest = require('./requests/weather.request');
+const port = 3000;
 
 const app = express();
 
