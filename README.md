@@ -1,5 +1,3 @@
 ## Weather App
 
-Environment: EJS, Node.js
-
-Web Server: Express, Heroku
+Environment: EJS, Node.js, Express
