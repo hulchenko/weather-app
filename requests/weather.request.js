@@ -1,20 +1,20 @@
-const rp = require('request-promise');
+const rp = require("request-promise");
+require("dotenv").config();
 
-module.exports = async function (city = '') {
+module.exports = async function (city = "") {
   if (!city) {
-    throw new Error('City name cannot be empty!');
-    return;
+    throw new Error("City name cannot be empty!");
   }
 
-  const KEY = 'f257d63f5f395853b5ef1b11c3efc6b3';
-  const uri = 'http://api.openweathermap.org/data/2.5/weather';
+  const KEY = process.env.API_KEY;
+  const uri = "http://api.openweathermap.org/data/2.5/weather";
 
   const options = {
     uri: uri,
     qs: {
       appid: KEY,
       q: city,
-      units: 'imperial',
+      units: "imperial",
     },
     json: true,
   };
